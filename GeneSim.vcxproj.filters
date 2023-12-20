@@ -23,4 +23,14 @@
     <Text Include="LICENSE.txt" />
     <Text Include="gitignore.txt" />
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="simulation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
 </Project>

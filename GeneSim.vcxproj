@@ -138,6 +138,12 @@
     <Text Include="gitignore.txt" />
     <Text Include="LICENSE.txt" />
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="simulation.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="common.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
