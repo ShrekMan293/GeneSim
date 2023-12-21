@@ -1,0 +1,19 @@
+Weak immune is less fight against disease
+Increased disease is higher risk
+Low Metabolism=low fitness if high food
+
+Attractiveness Score:
+
+((a / f) + a) / 5
+a is attractiveness
+f is fitness
+
+Reproductive Process:
+
+Males and Females meet
+Males get 3 tries to reproduce
+Must pass 3 criteria to pass
+	1. Valid Female (exists between 0 and 1048576)
+	2. Pass the Attractiveness Test
+	3. Successfully mate
+If Failure, lose 20 fitness

@@ -132,18 +132,24 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <None Include="cfg.help" />
-    <None Include="HELP" />
     <None Include="README.md" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="gitignore.txt" />
     <Text Include="LICENSE.txt" />
+    <Text Include="notes.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\entity.cpp" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\mate.cpp" />
     <ClCompile Include="src\simulation.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="inc\entity.h" />
     <ClInclude Include="inc\common.h" />
+    <ClInclude Include="inc\mate.h" />
+    <ClInclude Include="inc\simulation.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
