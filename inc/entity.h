@@ -1,7 +1,7 @@
 #pragma once
 #include "common.h"
 
-enum class gene {
+enum class gene : uint8_t {
 	// Negative
 	LowMetabolism = -15, WeakImmune, BrittleBones,
 	ShortLifespan, SlowHealing, IncreasedMutation,
@@ -20,7 +20,7 @@ enum class gene {
 };
 
 struct entity {
-	gene genome[10];
+	gene* genome;
 	uint8_t age;
 	uint8_t health;
 	uint8_t fitness;

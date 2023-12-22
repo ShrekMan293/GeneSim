@@ -9,6 +9,6 @@ int main(int argc, char** argv) {
 		return 1;
 	}
 
-	simOptions s = getCFG();
+	simoptions = getCFG();
 	return 0;
 }

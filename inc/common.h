@@ -5,4 +5,4 @@
 #include "simulation.h"
 using std::string;
 
-extern simOptions simoptions;;
+extern simOptions simoptions;
