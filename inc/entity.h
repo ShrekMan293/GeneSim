@@ -3,7 +3,7 @@
 
 enum class gene : uint8_t {
 	// Negative
-	LowMetabolism = -15, WeakImmune, BrittleBones,
+	LowMetabolism, WeakImmune, BrittleBones,
 	ShortLifespan, SlowHealing, IncreasedMutation,
 	ReducedFertility, ReducedAttractiveness, LimitedMobility,
 	LimitedAdaptability, PrematureAging, IncreasedDisease,
@@ -29,4 +29,5 @@ struct entity {
 	bool gender;		// Male is false, female is true
 	bool can_mate;
 	uint8_t mate_attempts;
+	uint8_t cell_count;		// Reproductive cell count
 };
